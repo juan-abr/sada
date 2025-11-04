@@ -12,7 +12,7 @@ Inside the folder of your Hugo site run:
 
 ```shell
 git init
-git submodule add https://github.com/darshanbaral/sada.git
+git submodule add https://github.com/juan-abr/sada.git
 cd sada
 npm install
 hugo server
@@ -21,4 +21,5 @@ hugo server
 ## Getting started
 
 After installing the Sada Theme successfully, modify the `config.toml` as you wish to generate your online resume.
+
 
