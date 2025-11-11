@@ -11,7 +11,7 @@
         {{ partial "profilePhoto" . }}
         {{ partial "aboutDesc" . }}
         {{ partial "language.html" . }}
-        {{ partial "hobby.html" . }}
+        {{/* partial "hobby.html" . */}}
       </div>
     </div>
     {{- partial "footer.html" . -}}
@@ -23,8 +23,8 @@
     {{ partial "education.html" . }}
     <hr />
     {{ partial "project.html" . }}
-    <hr />
-    {{ partial "skill.html" . }}
+    {{/*<hr />*/}}
+    {{/* partial "skill.html" . */}}
   </section>
 </main>
 {{ end }}

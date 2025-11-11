@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://juan.codes/"
 languageCode = "en-us"
 disableKinds = ["taxonomy"]
 
@@ -7,15 +7,15 @@ disableKinds = ["taxonomy"]
 
 [params]
     title = "Sada Theme"
-    author = "Darshan Baral"
+    author = "Juan Rodriguez"
     description = "About Me"
-    copyright = "Custom copyright message"
+    copyright = "© Juan Rodriguez 2025"
     theme = "dark" # `dark` or `light`
 
     # Profile section
     [params.profile]
-        name = "First Last"
-        title = "Abbr., K.A."
+        name = "Juan Rodriguez"
+        title = "Software Developer"
         photo = "images/profile.jpg"
 
     # Section for links to social websites
@@ -24,44 +24,49 @@ disableKinds = ["taxonomy"]
 
         [[params.social.list]]
         icon = "bi bi-linkedin"
-        url = "#"
+        url = "https://linkedin.com/in/juanabr/"
         title = "LinkedIn"
 
         [[params.social.list]]
         icon = "bi bi-github"
-        url = "#"
+        url = "https://github.com/juan-abr/"
         title = "GitHub"
 		
-		[[params.social.list]]
-        icon = "bi bi-mortarboard-fill"
-        url = "#"
-        title = "Google Scholar"
+        # [[params.social.list]]
+        # icon = "bi bi-mortarboard-fill"
+        # url = "#"
+        # title = "Google Scholar"
+
+        # [[params.social.list]]
+        # icon = "bi bi-envelope-at-fill"		
+        # url = "#"
+        # title = "Email"
+
+        # [[params.social.list]]
+        # icon = "bi bi-bluesky"
+        # url = "#"
+        # title = "Bluesky"
 
         [[params.social.list]]
-        icon = "bi bi-envelope-at-fill"		
-        url = "#"
-        title = "Email"
-
-        [[params.social.list]]
-        icon = "bi bi-bluesky"
-        url = "#"
-        title = "Bluesky"
+        icon = "bi bi-instagram"
+        url = "https://instagram.com/juanabrod/"
+        title = "Instagram"
 
     # Education section
     [params.education]
         title = "Education"
 
         [[params.education.list]]
-        degree = "Masters in Degree 1"
-        college = "University Number 1"
-        dates = "2016 - 2018"
-        thesis_title = "Title of the dissertation"
-        thesis_link = "#"
+        degree = "B.S. Information Systems Management"
+        college = "University of Maryland Global Campus"
+        dates = "Dec. 2019"
+        # thesis_title = "Title of the dissertation"
+        # thesis_link = "#"
 
         [[params.education.list]]
-        degree = "Bachelors in Degree 2"
-        college = "University Number 2"
-        dates = "2010 - 2014"
+        degree = "A.S. Information Systems Management"
+        college = "Frederick Community College"
+        dates = "May 2017"
 
     # Languages section
     [params.language]
@@ -71,9 +76,9 @@ disableKinds = ["taxonomy"]
         language = "English"
         level = "Fluent"
 				
-        [[params.language.list]]
-        language = "Bird"
-        level = "Basic"
+        # [[params.language.list]]
+        # language = "Bird"
+        # level = "Basic"
 
     # Interests section
     [params.hobbies]
@@ -92,43 +97,44 @@ disableKinds = ["taxonomy"]
         interest = "Baking"
 
     [params.aboutme]
-        description = "Tagline. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description = "Individually driven to leverage experience in agile development and scrum, and to utilize my major as it pertains to Information Systems Management. Eager to fill an software development or IT support role with a local company promoting personal growth and development."
 
     # Experiences section
     [params.experiences]
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Job Number 1"
-        dates = "2018 - *Present*"
-		link = "#"
-        company = "Company name 1"
+        position = "Web Developer"
+        dates = "Sept. 2023 - *Present*"
+		link = "https://cmmartialarts.com/"
+        company = "Central Maryland Martial Arts"
+        details = "Spearheaded development of several web applications for local martial arts studio using Django web framework and SQL relational database with Amazon Web Services."
 
         [[params.jobs.list]]
-        position = "Job Number 2"
-        dates = "2016 - 2018"
-		link = "#"
-        company = "Company name 2"
-        details = "Brief description of the `work` done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        position = "Software Development Intern"
+        dates = "Jan. 2022 - June 2022"
+		link = "https://ihire.com/"
+        company = "iHire, LLC"
+        details = "Directed unit, feature, and system-level testing to fulfill bug fix requests for job board and talent acquisition platform. Participated in collaborative sprints, scrums, and multi-departmental meetings to identify challenges and follow ticket/story progression. Utilized software development tools including MiniProfiler, Visual Studio, and Postman. Added new JavaScript libraries, terms and conditions, and beta features to production website."
 
     # Projects section
     [params.projects]
         title = "Projects"
 
         [[params.projects.list]]
-        title = "Awesome Project 1"
-        url = "#"
-        description = "Description of the *awesome* project 1"
+        title = "TechFrederick 2020 Hackathon"
+        url = "https://techfrederick.com/"
+        description = "Earned one of 3 overall first place spots during a 2-week online programming competition hosted in 2020 with TechFrederick, by successfully developing a records management system for Frederick, MD Fire and Rescue utilizing the Django web framework."
 		
-		[[params.projects.list]]
-        title = "Awesome Project 2"
-        url = "#"
-        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        # [[params.projects.list]]
+        # title = "Awesome Project 2"
+        # url = "#"
+        # description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 
-        [[params.projects.list]]
-        title = "Awesome Project 3"
-        url = "#"
-        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        # [[params.projects.list]]
+        # title = "Awesome Project 3"
+        # url = "#"
+        # description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 
     # Skills section
     [params.skills]
